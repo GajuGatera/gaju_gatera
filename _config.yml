@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://cocky-elion-42f1ad.netlify.com"
+url: "https://cocky-elion-42f1ad.netlify.com/"
 title: Gaju Gatera # site's title
 description: "Techonology & Photography" # used by search engines
 
