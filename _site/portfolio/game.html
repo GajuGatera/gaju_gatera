@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer=true src="/gaju_gatera/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/gaju_gatera/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/gaju_gatera/" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/gaju_gatera/portfolio/game">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Gaju Gatera" href="http://localhost:4000//gaju_gatera//feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/gaju_gatera/assets/css/vendor/font-awesome.min.css">
+    
+    
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- KaTeX 0.8.3 -->
+    
+    <link rel="stylesheet" type="text/css" href="/gaju_gatera/assets/css/vendor/katex.min.css">
+    <script src="/gaju_gatera/assets/js/vendor/katex.min.js">
+    </script>
+    
+
+    <!-- Google Analytics -->
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Game of Life | Gaju Gatera</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Game of Life" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Conway’s Game of Life was the first project I ever worked on that made me go through all the frustrating emotions that come with creating something as a first year computer science student. I could swear that I had never worked so hard and focus for so long on one single thing. However, I also remember the ecstasy and rush of overwhelming happiness that surged my body once I got it working! After that project I was told myself “Yeah, I kinda like this computer science.” I’m not sure why this particular project made things click for me but it did." />
+<meta property="og:description" content="Conway’s Game of Life was the first project I ever worked on that made me go through all the frustrating emotions that come with creating something as a first year computer science student. I could swear that I had never worked so hard and focus for so long on one single thing. However, I also remember the ecstasy and rush of overwhelming happiness that surged my body once I got it working! After that project I was told myself “Yeah, I kinda like this computer science.” I’m not sure why this particular project made things click for me but it did." />
+<link rel="canonical" href="http://localhost:4000/gaju_gatera/portfolio/game" />
+<meta property="og:url" content="http://localhost:4000/gaju_gatera/portfolio/game" />
+<meta property="og:site_name" content="Gaju Gatera" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-11-23T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"Conway’s Game of Life was the first project I ever worked on that made me go through all the frustrating emotions that come with creating something as a first year computer science student. I could swear that I had never worked so hard and focus for so long on one single thing. However, I also remember the ecstasy and rush of overwhelming happiness that surged my body once I got it working! After that project I was told myself “Yeah, I kinda like this computer science.” I’m not sure why this particular project made things click for me but it did.","@type":"BlogPosting","url":"http://localhost:4000/gaju_gatera/portfolio/game","headline":"Game of Life","dateModified":"2017-11-23T00:00:00+02:00","datePublished":"2017-11-23T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gaju_gatera/portfolio/game"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>Game of Life | Gaju Gatera</title>
+    <meta name="description" content="Conway’s Game of Life was the first project I ever worked on that made me go through all the frustrating emotions that come with creating something as a firs...">
+    -->
+</head>
+
+  
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+    <div class="branding">
+        <a href="/gaju_gatera/">
+            <img class="avatar" src="/gaju_gatera/" alt=""/>
+        </a>
+
+        <h1 class="site-title">
+            <a href="/gaju_gatera/">Gaju Gatera</a>
+        </h1>
+    </div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul class="hide">
+        <!-- Auto Generation of NORMAL pages in the navbar -->
+        
+        
+        
+        
+        
+        
+        
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" href="/gaju_gatera/about/">
+                Hi! I'm Gaju.
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" href="/gaju_gatera/gallery/">
+                Photography
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" href="/gaju_gatera/projects/">
+                Software
+            </a>
+        </li>
+        
+        
+        
+        
+        
+         
+        
+        <!-- Auto Generation of SPECIAL pages in the navbar -->
+        
+          
+        
+          
+        
+    </ul>
+        
+    </nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image">
+  <header id="main" style="background-image: url('/gaju_gatera/assets/img/project/game_of_life.jpg')">
+    <h1 id="Game+of+Life" class="title">Game of Life</h1>
+    <p class="meta">
+    23 November, 2017
+    
+    </p>
+  </header>
+  <section class="post-content">
+  
+    <p>Conway’s Game of Life was the first project I ever worked on that made me go through all the frustrating emotions that come with creating something as a first year computer science student. I could swear that I had never worked so hard and focus for so long on one single thing. However, I also remember the ecstasy and rush of overwhelming happiness that surged my body once I got it working! After that project I was told myself “Yeah, I kinda like this computer science.” I’m not sure why this particular project made things click for me but it did.</p>
+
+<p>For those who don’t know what Conway’s Game of Life, let me lay it down for you. There are 4 rules:</p>
+<ul>
+  <li>Any live cell with fewer than two live neighbors dies, as if by underpopulation.</li>
+  <li>Any live cell with two or three live neighbors lives on to the next generation.</li>
+  <li>Any live cell with more than three live neighbors dies, as if by overpopulation.</li>
+  <li>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</li>
+</ul>
+
+<p>With those rules in mind, the user gets to pick the initial state of the live cells and see how they progress to the next generation. If you are strategic enough to create the right initial state, the game of life can continue on forever.</p>
+
+<p>Here’s <a href="https://www.youtube.com/watch?v=WVCM3Rv4VV8">a demo</a> of what I’m talking about.</p>
+
+<p>Here’s <a href="https://github.com/GajuGatera/Game-of-Life">the link</a> to my repo.</p>
+
+  
+  </section>
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+  
+  
+  <div id="next-post" class="post-nav-post">
+      <p>Next post</p>
+      <a href="/gaju_gatera/portfolio/converter">
+        GSC Converter
+      </a>
+  </div>
+  
+</div>
+
+    </div>
+    
+<footer class="site-footer">
+    <p class="text">Built using <a href="https://jekyllrb.com/">Jekyll</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+
+<li>
+	<a href="mailto:missgatera1@gmail.com" title="">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/GajuGatera" title=" GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/gaju-gatera/" title=" LinkedIn">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+  </body>
+</html>
